@@ -9,3 +9,5 @@ const lannister = new Family('lannister',["winterfell","Casterly rock"])
 const targaryen = new Family('targaryen',["dragonstone","summerhall"])
 
 const families:Family[] =[lannister,targaryen]
+
+function getcastles(family:string, callback:(err?:Error, castles?: string[]) => void){}
