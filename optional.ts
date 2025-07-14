@@ -14,6 +14,6 @@ const mediadata : Media ={
 
 
 
-console.log(mediadata.director?.name)
+console.log(mediadata.director?? 'director no encontrado')
 
 
