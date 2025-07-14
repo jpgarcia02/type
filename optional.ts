@@ -1,0 +1,17 @@
+interface Media{
+    titulo: string,
+    genero: string[],
+    director : {name: string},
+}
+
+
+const mediadata : Media ={
+    titulo: "goodfellas",
+    genero: ["drama","terror","ficcion"],
+    director: null,
+    
+}
+
+console.log(mediadata.director.name)
+
+
